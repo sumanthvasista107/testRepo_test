@@ -18,7 +18,7 @@
 
           void downloadPDF() {
 
-            const url = 'https://testRepo_test-git-main-suprith-ms-projects.vercel.app/assets/public/Test.pdf'; // The relative path to your PDF in the web directory
+            const url = 'https://testRepo_test.vercel.app/assets/public/Test.pdf'; // The relative path to your PDF in the web directory
 
             final anchor = html.AnchorElement(href: url)
 
