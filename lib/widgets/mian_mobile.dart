@@ -20,11 +20,11 @@
 
         void downloadPDF() {
 
-        const url = 'https://github.com/VasistaTech/testRepo/blob/main/public/Test.pdf'; // The relative path to your PDF in the web directory
+        const url = 'https://github.com/sumanthvasista107/testRepo_test/blob/main/public/Test.pdf'; // The relative path to your PDF in the web directory
 
         final anchor = html.AnchorElement(href: url)
 
-        ..setAttribute('download', 'Test') // Name of the downloaded file
+        ..setAttribute('download', 'Test.pdf') // Name of the downloaded file
 
             ..click();
 
